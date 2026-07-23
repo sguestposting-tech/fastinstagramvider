@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/dp/:username*", "destination": "/api/dp?username=:username*" },
+    { "source": "/api/proxy-image", "destination": "/api/proxy-image" },
+    { "source": "/api/download", "destination": "/api/download" }
+  ]
+}
